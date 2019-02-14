@@ -1,4 +1,4 @@
-package Cwiczenie_1.Cwiczenie_3;
+package Cwiczenie_3;
 
 import java.util.Scanner;
 
@@ -13,6 +13,7 @@ public class CashMachine {
 
         bankAccount.deposit(200);
         System.out.println(bankAccount.getAccount());
+
 
         Scanner scanner = new Scanner(System.in);
         boolean ok = false;

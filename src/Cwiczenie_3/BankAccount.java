@@ -1,4 +1,4 @@
-package Cwiczenie_1.Cwiczenie_3;
+package Cwiczenie_3;
 
 public class BankAccount {
     private Person person;
@@ -21,6 +21,7 @@ public class BankAccount {
         this.account= account;
     }
 
+    
     public Person getPerson() {
         return person;
     }
